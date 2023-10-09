@@ -1,0 +1,21 @@
+============================================
+Kourosh Moaveni Nejad
+Amirkabir University Of Technology "9923124"
+============================================
+
+"Descriptions about the code are in form of MATLAB comment and in each section a brief explanation about the process is provided"
+
+
+
+Answer to questions
+1-3
+Noisy sognal is a messy and fluctuating signal so we use Moving average system to smoothen the noisy signal.
+moving average filter operates by averaging a certain number of previous input samples to produce the current output sample. This averaging process introduces a delay in the output relative to the input. This is why we see delay in output.
+
+1-3.2
+By "Change of the variable" method we can perform moving average. so x[n-k], would be x[n-k-m1] and the range for sigma is going to be [0,m1+m2]
+
+1-4
+No. As we see, conv function produced smoother output.
+
+
